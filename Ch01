@@ -1,0 +1,27 @@
+/*
+  Section003
+  Practice predicting stored value in variable.
+*/
+#include <stdio.h>
+
+int main(){
+  float j;
+  scnaf("%4f",&j);      // input : 12.123
+  printf("%.1f\n",j);   // output : 12.1 (if there's no '.1', output is 12.10000)
+  
+  char a;
+	scanf("%c", &a);      // input : SINAGONG
+	printf("%c\n", a);    // output : S
+  
+  int i=0; char b[8];
+  scanf("%4c", b);      // input : SINAGONG
+  for(i=0; i<8; i++){   // output : SINA儆儆(only receives 4characters. remained area is filled with garbage value)
+    printf("%c", b[i]);
+  }
+  
+  i=0; char c[8];
+  scanf("%s", c);       // input : GIL BUT
+  for(i=0; i<8; i++){   // output : GIL 儆儆(save until meet blank)
+    printf("%c", c[i]);
+  }
+}
