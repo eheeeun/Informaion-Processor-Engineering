@@ -55,4 +55,22 @@ int main(){
   for(i=0; i<8; i++){
     printf("%c", h[i]);		// output : OVE M儆
   }
+  
+  printf("\n");
+  
+  int j;
+  float k;
+  scanf("%3d %5f", &j, &k); // input : 123456789
+  printf("%d %f\n", j, k);  // output : 123 45678.000000
+  
+  printf("\n");
+  
+  int l;
+  float m;
+  scanf("3d%$$%3f", &l, &m);  // input : 123$$456789
+  printf("%d %f\n", l, m);    // output : 123 456.000000
+  
+  printf("\n");
+  
+  
 }
