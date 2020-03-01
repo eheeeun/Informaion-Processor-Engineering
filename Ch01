@@ -70,7 +70,25 @@ int main(){
   scanf("3d%$$%3f", &l, &m);  // input : 123$$456789
   printf("%d %f\n", l, m);    // output : 123 456.000000
   
-  printf("\n");
+  printf("\n=======================================================\n");
   
+  /*
+    "%X.Yf"
+      X만큼 자리를 확보하고 소숫점 자리 아래 Y자리까지 출력
+  */
   
+  printf("%3d\n", 2543);      // output : 2543
+  printf("%6d\n", 2543);      // output :   2543  (two blanks exist ahead)
+  printf("%-6d\n". 2543);     // output : 2543    (two blanks exist in the end)
+  printf("%06d", 2543);       // output : 002543
+  
+  printf("%8.2f", 245.2555);  // output : __245.25
+  printf("%e", 25.43);        // output : 2.543000e+1
+
+  printf("%.3s", "help me");    // output : hel
+  printf("%3s", "help me");     // output : help me
+  printf("%8.6s", "help me");   // output :   help m (two blanks exist ahead)
+  printf("-8.6s", "help me");   // output : help m   (two blanks exist in the end)
+  
+  printf("a=8.2f \tb=%e\n", 125.23f, 3141.592e-1);  // output :   125.23   3.141592e+02
 }
