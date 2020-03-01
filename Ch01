@@ -95,4 +95,29 @@ int main(){
   int n, o;
   scanf("%3d \n \t %3d", &n, &o); // input : 12345678 (don't care about '\n', \t')
   printf("i=%d j=%d\n", n, o);    // output : i=123 j=456
+  
+  /*
+    getchar(), gets(), putchat(), puts()
+  */
+  
+  char p;
+  p=getchar();  // input : GIL BUT
+  putchar(a);   // output : G
+  
+  printf("\n");
+  
+  putchar('G');   // output : G
+  putchar('G'+1); // output : H
+  
+  printf("\n");
+  
+  char q[10];
+  gets(q);  // input : GIL BUT
+  puts(q);  // output : GIL BUT
+  
+  puts("GIL BUT"); // output : GIL BUT (include '\n')
+  
+  
+     
+  
 }
