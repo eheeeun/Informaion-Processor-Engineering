@@ -116,8 +116,4 @@ int main(){
   puts(q);  // output : GIL BUT
   
   puts("GIL BUT"); // output : GIL BUT (include '\n')
-  
-  
-     
-  
 }
