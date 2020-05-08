@@ -21,8 +21,6 @@ public class Test{
     }
   }
 }
-
-
 /*
   output err01 is occured
 */
