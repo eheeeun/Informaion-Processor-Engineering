@@ -6,7 +6,7 @@
 
 int main(){
   float j;
-  scnaf("%4f",&j);      // input : 12.123
+  scanf("%4f",&j);      // input : 12.123
   printf("%.1f\n",j);   // output : 12.1 (if there's no '.1', output is 12.10000)
   
   printf("\n");
