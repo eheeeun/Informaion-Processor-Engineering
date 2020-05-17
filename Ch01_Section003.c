@@ -3,7 +3,6 @@
   Practice predicting stored value in variable.
 */
 #include <stdio.h>
-
 int main(){
   float j;
   scanf("%4f",&j);      // input : 12.123
