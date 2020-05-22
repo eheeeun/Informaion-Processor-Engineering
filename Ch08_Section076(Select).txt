@@ -4,7 +4,7 @@ Jeneral form
 
 SELECT     [AS    ]
 [, 그룹함수(속성명)[AS 별칭]]
-[, WINDOW함수 OVER (PARTITIONE BY 속성명1, 속성명2, ...
+[, WINDOW함수 OVER (PARTITION BY 속성명1, 속성명2, ...
               ORDER BY 속성명3, 속성명4, ...)[AS 별칭]]
 FROM
 WHERE
